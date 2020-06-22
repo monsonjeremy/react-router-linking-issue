@@ -1,0 +1,22 @@
+{
+  "name": "jeremy-test-lib",
+  "description": "hi",
+  "main": "dist/index.js",
+  "version": "0.1.2",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.3",
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "@babel/preset-react": "7.10.1",
+    "@babel/register": "^7.10.3",
+    "react-router-dom": "^5.0.0"
+  },
+  "scripts": {
+    "build": "babel ./src --verbose --out-dir ./dist --copy-files"
+  }
+}
